@@ -53,7 +53,9 @@
           "githubUrl": "https://github.com/qdrant/qdrant-client",
           "source": "build_file:pyproject.toml"
         }
-      ]
+      ],
+      "repolex": "aggregate/repolex/3fc36950b2b7c19cdd81c6de99f10d2cbed850af/chunk-001.nq.gz",
+      "dep": "dep/3fc36950b2b7c19cdd81c6de99f10d2cbed850af.nq.gz"
     }
   ],
   "commit": "commit/commit.nq.gz",
