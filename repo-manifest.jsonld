@@ -8,7 +8,7 @@
     {
       "@id": "https://repolex.ai/r/NousResearch/hermes-plugin-mem0/commit/3fc36950b2b7c19cdd81c6de99f10d2cbed850af",
       "git:hexsha": "3fc36950b2b7c19cdd81c6de99f10d2cbed850af",
-      "repolex:parseStatus": "ast_complete",
+      "repolex:parseStatus": "enrich_complete",
       "git:tagName": "main"
     }
   ]

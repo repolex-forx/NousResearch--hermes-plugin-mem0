@@ -36,10 +36,30 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/3fc36950b2b7c19cdd81c6de99f10d2cbed850af/chunk-001.nq.gz",
       "repolex:graphFileSize": 1509151
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/3fc36950b2b7c19cdd81c6de99f10d2cbed850af.nq.gz",
+      "repolex:graphFileSize": 94360
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-09-29T19:04:56.749455+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "main"
+  "git:tagName": "main",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/encode/httpx",
+      "repolex:packageName": "httpx"
+    },
+    {
+      "@id": "https://repolex.ai/r/psycopg/psycopg2",
+      "repolex:packageName": "psycopg2-binary"
+    },
+    {
+      "@id": "https://repolex.ai/r/qdrant/qdrant-client",
+      "repolex:packageName": "qdrant-client"
+    }
+  ]
 }

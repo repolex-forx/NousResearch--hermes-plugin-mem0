@@ -23,6 +23,36 @@
       ],
       "ast": [
         "aggregate/ast/3fc36950b2b7c19cdd81c6de99f10d2cbed850af/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/3fc36950b2b7c19cdd81c6de99f10d2cbed850af.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "httpx",
+          "ecosystem": "PYPI",
+          "version": "0.27",
+          "githubOrg": "encode",
+          "githubRepo": "httpx",
+          "githubUrl": "https://github.com/encode/httpx",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "psycopg2-binary",
+          "ecosystem": "PYPI",
+          "version": "2.9",
+          "githubOrg": "psycopg",
+          "githubRepo": "psycopg2",
+          "githubUrl": "https://github.com/psycopg/psycopg2",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "qdrant-client",
+          "ecosystem": "PYPI",
+          "version": "1.9",
+          "githubOrg": "qdrant",
+          "githubRepo": "qdrant-client",
+          "githubUrl": "https://github.com/qdrant/qdrant-client",
+          "source": "build_file:pyproject.toml"
+        }
       ]
     }
   ],
